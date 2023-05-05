@@ -9,7 +9,7 @@ const Toast: React.FC<Props> = () => {
       <h1 className="mb-4 text-4xl font-extrabold tracking-tight leading-none text-red-800 md:text-5xl lg:text-6xl">
       Не существует волшебной таблетки, но существует формула подобранная именно под тебя, которая приведет тебя к фигуре мечты.
         </h1>
-        <p className="mb-8 text-lg font-normal text-red-600 lg:text-xl sm:px-16 lg:px-48">
+        <p className="mb-8 text-3xl font-normal text-red-600 lg:text-3xl sm:px-16 lg:px-8">
         Мои клиенты:
 -мамы в декрете, 
 - женщины и мужчины, которые стесняются ходить в зал,

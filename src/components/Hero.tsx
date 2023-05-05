@@ -21,7 +21,7 @@ return (
 <h1 className="mb-4 text-4xl font-extrabold tracking-tight leading-none text-red-800 md:text-5xl lg:text-6xl dark:text-red-800">
 Создай свое тело мечты!
 </h1>
-<p className="mb-8 text-lg font-normal text-red-600 lg:text-xl sm:px-16 lg:px-48 dark:text-red-600">
+<p className="mb-8 text-3xl font-normal text-red-600 lg:text-3xl sm:px-16 lg:px-48 dark:text-red-600">
 Эффективно тренеруйся! Вкусно питайся! Легко сбрасывай вес! Люби себя! А моя система тренировок Тебе поможет!
 </p>
 

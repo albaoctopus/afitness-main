@@ -28,7 +28,7 @@ const Testimonials: React.FC = () => (
 
   <section className="text-gray-600 body-font">
     <div className="container px-5 py-24 mx-auto">
-      <h1 className="text-3xl font-medium title-font text-white mb-12 text-center">Рекомендации</h1>
+      <h1 className="text-3xl font-bold title-font text-red-800 mb-12 text-center">Рекомендации</h1>
       <div className="flex flex-wrap -m-4">
         <Testimonial
           

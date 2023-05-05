@@ -13,11 +13,11 @@ const PriceCard: React.FC<PriceCardProps> = ({ title, price, features, image }) 
     <div className="p-6 border rounded-lg shadow-lg">
       <Image src={image} alt={title} width={500} height={500} className="rounded-lg mb-6" />
 
-      <h2 className="text-2xl font-bold mb-2">{title}</h2>
+      <h2 className="text-2xl text-red-900 font-bold mb-2">{title}</h2>
 
-      <h2 className="text-gray-600 mb-6">{price} /РУБ в месяц</h2>
+      <h2 className="text-red-800 mb-6">{price} /РУБ в месяц</h2>
 
-      <ul className="text-sm text-gray-600 mb-6">
+      <ul className="text-sm text-red-800 mb-6">
         {features.map((feature, index) => (
           <li key={index} className="mb-1">
             {feature}
@@ -25,7 +25,7 @@ const PriceCard: React.FC<PriceCardProps> = ({ title, price, features, image }) 
         ))}
       </ul>
 
-      <button className="bg-blue-500 text-white rounded-md py-2 px-4 hover:bg-blue-600">
+      <button className="bg-red-600 text-white rounded-md py-2 px-4 hover:bg-red-400">
         Купить
       </button>
     </div>
