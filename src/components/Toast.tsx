@@ -17,7 +17,7 @@ const Toast: React.FC<Props> = () => {
 -офисные работники,
 -спортсмены,
 -Люди у которых есть проблемы и ограничения по здоровью.
-И все они пришли ко мне за одним, за красивым и здоровым телом.
+
         </p>
         <h1 className="mb-4 text-4xl font-extrabold tracking-tight leading-none text-red-800 md:text-5xl lg:text-6xl">
         И все они пришли ко мне за одним, за красивым и здоровым телом!
